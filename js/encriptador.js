@@ -19,7 +19,9 @@ function desencriptar() {
 var botonCopiar = document.querySelector("#btnCopiar");
 botonCopiar.addEventListener("click", copiar);
 function copiar(){
+    alert('¡COPIADO!')
     var input = document.querySelector("#inputSalida");
     input.select();
-    document.execCommand("copy");
+    document.execCommand("copy"); 
+
 };
